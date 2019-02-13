@@ -38,6 +38,8 @@ PODS:
   - react-native-onesignal (3.2.12):
     - OneSignal (= 2.9.4)
     - React
+  - react-native-webrtc (1.67.1):
+    - React
   - React/Core (0.58.4):
     - yoga (= 0.58.4.React)
   - React/CxxBridge (0.58.4):
@@ -93,6 +95,7 @@ DEPENDENCIES:
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - react-native-fbsdk (from `../node_modules/react-native-fbsdk`)
   - react-native-onesignal (from `../node_modules/react-native-onesignal/react-native-onesignal.podspec`)
+  - react-native-webrtc (from `../node_modules/react-native-webrtc`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -131,6 +134,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-fbsdk"
   react-native-onesignal:
     :path: "../node_modules/react-native-onesignal/react-native-onesignal.podspec"
+  react-native-webrtc:
+    :path: "../node_modules/react-native-webrtc"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -147,8 +152,9 @@ SPEC CHECKSUMS:
   React: 9b873b38b92ed8012d7cdf3b965477095ed364c4
   react-native-fbsdk: d5f98cc5abecbcc463e3c35c04743d716d002d37
   react-native-onesignal: f4dddbd062825fb18ea5c4e34da501318cce334d
+  react-native-webrtc: 31b6d3f1e3e2ce373aa43fd682b04367250f807d
   yoga: 0885622311729a02c2bc02dca97167787a51488b
 
-PODFILE CHECKSUM: e70c45c77e5a8fe00ddf662be91a4cd927294fd7
+PODFILE CHECKSUM: a5c4fc0b76424e3ddeb77fd7fb7beb50e23c0633
 
 COCOAPODS: 1.5.3

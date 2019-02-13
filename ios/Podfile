@@ -31,6 +31,7 @@ def shared_pods
     pod 'react-native-onesignal',
         :path => "../node_modules/react-native-onesignal/react-native-onesignal.podspec",
         :inhibit_warnings => true
+    pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
 end
 
 

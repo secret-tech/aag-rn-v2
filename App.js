@@ -4,6 +4,7 @@ import { LoginButton } from 'react-native-fbsdk';
 
 import OneSignal from 'react-native-onesignal';
 import { RTCPeerConnection, RTCMediaStream, RTCIceCandidate, RTCSessionDescription, RTCView, MediaStreamTrack, getUserMedia } from 'react-native-webrtc';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 // Конфигурация локальных медиа данных
 const LOCAL_STREAM_OPTIONS = {
@@ -76,7 +77,7 @@ export default class App extends Component {
       <View style={styles.container}>
         <View style={{
           width: '100%',
-          height: '100%',
+          height: '70%',
           position: 'absolute',
           top: 0,
           left: 0,
@@ -90,6 +91,8 @@ export default class App extends Component {
               flex: 1
             }} 
             streamURL={localStream && localStream.toURL()}/>
+
+            <Icon name='ios-chatboxes' size={64} color="#b22" />
         </View>
       </View>
     );

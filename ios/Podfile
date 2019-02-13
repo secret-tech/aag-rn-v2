@@ -32,6 +32,7 @@ def shared_pods
         :path => "../node_modules/react-native-onesignal/react-native-onesignal.podspec",
         :inhibit_warnings => true
     pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
+    pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 end
 
 

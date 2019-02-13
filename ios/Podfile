@@ -28,6 +28,9 @@ def shared_pods
     
     # Specific deps
     pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+    pod 'react-native-onesignal',
+        :path => "../node_modules/react-native-onesignal/react-native-onesignal.podspec",
+        :inhibit_warnings => true
 end
 
 

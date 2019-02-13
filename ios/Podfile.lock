@@ -18,6 +18,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
+  - OneSignal (2.9.4)
   - React (0.58.4):
     - React/Core (= 0.58.4)
   - react-native-fbsdk (0.8.0):
@@ -33,6 +34,9 @@ PODS:
     - React
   - react-native-fbsdk/Share (0.8.0):
     - FBSDKShareKit
+    - React
+  - react-native-onesignal (3.2.12):
+    - OneSignal (= 2.9.4)
     - React
   - React/Core (0.58.4):
     - yoga (= 0.58.4.React)
@@ -88,6 +92,7 @@ DEPENDENCIES:
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
   - react-native-fbsdk (from `../node_modules/react-native-fbsdk`)
+  - react-native-onesignal (from `../node_modules/react-native-onesignal/react-native-onesignal.podspec`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -111,6 +116,7 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
+    - OneSignal
 
 EXTERNAL SOURCES:
   DoubleConversion:
@@ -123,6 +129,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native"
   react-native-fbsdk:
     :path: "../node_modules/react-native-fbsdk"
+  react-native-onesignal:
+    :path: "../node_modules/react-native-onesignal/react-native-onesignal.podspec"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -135,10 +143,12 @@ SPEC CHECKSUMS:
   FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
+  OneSignal: a41f5a896177275662da07e23d6a809c0e105a89
   React: 9b873b38b92ed8012d7cdf3b965477095ed364c4
   react-native-fbsdk: d5f98cc5abecbcc463e3c35c04743d716d002d37
+  react-native-onesignal: f4dddbd062825fb18ea5c4e34da501318cce334d
   yoga: 0885622311729a02c2bc02dca97167787a51488b
 
-PODFILE CHECKSUM: 873e2c067e0dd10bc975610bec0d6344caf3376c
+PODFILE CHECKSUM: e70c45c77e5a8fe00ddf662be91a4cd927294fd7
 
 COCOAPODS: 1.5.3

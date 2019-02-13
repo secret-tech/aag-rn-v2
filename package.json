@@ -10,7 +10,8 @@
     "react": "16.6.3",
     "react-native": "0.58.4",
     "react-native-fbsdk": "^0.8.0",
-    "react-native-fbsdklogin": "^0.0.8"
+    "react-native-fbsdklogin": "^0.0.8",
+    "react-native-onesignal": "^3.2.12"
   },
   "devDependencies": {
     "babel-core": "^7.0.0-bridge.0",

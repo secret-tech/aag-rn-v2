@@ -2489,7 +2489,7 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-invariant@^2.2.4:
+invariant@^2.2.2, invariant@^2.2.4:
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.4.tgz#610f3c92c9359ce1db616e538008d23ff35158e6"
   integrity sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA==
@@ -4686,6 +4686,13 @@ react-native-fbsdklogin@^0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/react-native-fbsdklogin/-/react-native-fbsdklogin-0.0.8.tgz#ec33ff03184e455c8bee888ba2fc54a2de57299e"
   integrity sha1-7DP/AxhORVyL7oiLovxUot5XKZ4=
+
+react-native-onesignal@^3.2.12:
+  version "3.2.12"
+  resolved "https://registry.yarnpkg.com/react-native-onesignal/-/react-native-onesignal-3.2.12.tgz#309dc4f65decae28119f46c0f1eef4310742bfb8"
+  integrity sha512-E1x5vNvOrgRRcr3FMdPVSXKtg8pk/XK1dU3aDSs4mwBOzlpFi8AlZd/bfd2bJUJ4BrWw09AsqdSDs+QygKP8sw==
+  dependencies:
+    invariant "^2.2.2"
 
 react-native@0.58.4:
   version "0.58.4"

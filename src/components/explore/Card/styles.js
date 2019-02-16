@@ -20,7 +20,8 @@ export default {
     top: 20,
     display: 'flex',
     flexDirection: 'row',
-    alignItems: 'center'
+    alignItems: 'center',
+    maxWidth: 'auto'
   },
   ratio: {
     color: '#fff',

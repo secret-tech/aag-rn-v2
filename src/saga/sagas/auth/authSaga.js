@@ -12,19 +12,14 @@ function* signInIterator({ payload }) {
   try {
     const fbReqPerm = ['public_profile', 'email', 'user_birthday', 'user_friends'];
     yield call(console.log, LoginManager);
-    yield LoginManager.logOut();
-    yield LoginManager.logInWithReadPermissions(fbReqPerm);
+    yield call([LoginManager, LoginManager.logInWithReadPermissions], fbReqPerm);
     const { accessToken } = yield AccessToken.getCurrentAccessToken();
-
-    yield call(console.log, accessToken);
 
     const { data } = yield call(
       axios.post,
       'https://aag.secrettech.io/auth/facebook',
       { access_token: accessToken, playerId: payload.playerId }
     );
-
-    yield call(console.log, data);
 
     yield call(setToken, data.token);
     yield put(signIn.success(data.token));

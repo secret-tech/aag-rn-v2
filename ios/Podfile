@@ -33,6 +33,7 @@ def shared_pods
         :inhibit_warnings => true
     pod 'react-native-webrtc', :path => '../node_modules/react-native-webrtc'
     pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+    pod 'ReactNativeIncallManager', :path => '../node_modules/react-native-incall-manager'
 end
 
 

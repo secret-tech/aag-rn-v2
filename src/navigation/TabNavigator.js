@@ -77,7 +77,7 @@ export default createBottomTabNavigator({
   Chat: ChatStack,
   Profile: ProfileStack
 }, {
-  initialRouteName: 'Chat',
+  initialRouteName: 'Explore',
   headerMode: 'none',
   tabBarComponent: CustomTabNavigation
 });

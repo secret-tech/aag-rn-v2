@@ -48,7 +48,7 @@ class AdvisorProfile extends Component {
           <Content>
             <View style={s.carousel}>
               <Button transparent style={s.back} onPress={() => this.props.navigation.goBack()}>
-                <Icon type="SimpleLineIcons" name="arrow-left" style={{ fontSize: 20, color: '#fff' }}/>
+                <Icon type="Ionicons" name="ios-arrow-back" style={{ fontSize: 20, color: '#fff' }}/>
               </Button>
 
               <Carousel
@@ -69,7 +69,7 @@ class AdvisorProfile extends Component {
               </View>
 
               <Button transparent style={s.connect} onPress={() => this.props.reqFindOrCreateConversation(id)}>
-                <Icon type="SimpleLineIcons" name="bubbles" style={{ fontSize: 24, color: '#fff', padding: 0, margin: 0 }}/>
+                <Icon type="Ionicons" name="ios-chatbubbles" style={{ fontSize: 24, color: '#fff', padding: 0, margin: 0 }}/>
               </Button>
             </View>
 

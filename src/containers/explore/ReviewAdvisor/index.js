@@ -4,7 +4,7 @@ import { withNavigation, NavigationActions } from 'react-navigation';
 import { Image } from 'react-native';
 import { Container, Content, View, Text, Button } from 'native-base';
 import StarRating from 'react-native-star-rating';
-import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import { closeNotification, purgeAdvisor, submitReview } from '../../../redux/ducks/common/review';
 
@@ -64,7 +64,7 @@ class ReviewAdvisor extends Component {
         <Content>
           <View style={s.wrap}>
             <Button style={s.close} transparent onPress={() => this.nav('Explore', 'ExploreExplore')}>
-              <Icon name='arrow-left' size={24} color='#fff'/>
+              <Icon name='ios-arrow-back' size={24} color='#fff'/>
             </Button>
             
             <View style={s.picWrap}>

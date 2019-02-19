@@ -32,7 +32,7 @@ export default {
     position: 'absolute',
     left: 20,
     bottom: 20,
-    maxWidth: '100%' - 40
+    // maxWidth: '100%' - 40
   },
   name: {
     color: '#fff',

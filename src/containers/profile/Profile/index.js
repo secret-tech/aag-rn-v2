@@ -3,7 +3,7 @@ import { NavigationActions } from 'react-navigation';
 import { connect } from 'react-redux';
 import { SafeAreaView, Image } from 'react-native';
 import { Container, Content, View, Text, Button } from 'native-base';
-import Icon from 'react-native-vector-icons/SimpleLineIcons';
+import Icon from 'react-native-vector-icons/Ionicons';
 
 import Spinner from '../../../components/common/Spinner';
 
@@ -23,7 +23,7 @@ class Profile extends Component {
             <Content>
               <View style={s.profile}>
                 <Button style={s.settings} transparent onPress={() => this.nav('Profile', 'ProfileSettings')}>
-                  <Icon name='settings' size={24} color='#000' />
+                  <Icon name='ios-cog' size={24} color='#000' />
                 </Button>
 
                 <View style={s.pictureWrap}>
